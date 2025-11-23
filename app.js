@@ -1,4 +1,4 @@
-const apiURL = "a1i1yi2zgvdh8u-ats.iot.ap-southeast-1.amazonaws.com";
+const apiURL = "a1i1yi2zgvdh8u-ats.iot.ap-southeast-1.amazonaws.com/adjusted_prediction";
 
 async function getPrediction() {
     const response = await fetch(apiURL);
